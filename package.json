@@ -1,0 +1,33 @@
+{
+  "description": "Shared ESLint and Prettier config",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier . --write",
+    "prepare": "husky install",
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "husky": "^8.0.0",
+    "prettier": "^2.8.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

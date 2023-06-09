@@ -1,0 +1,20 @@
+{
+  "name": "@quinhas/config-prettier",
+  "version": "1.0.1",
+  "license": "MIT",
+  "author": "Lucas Santana",
+  "description": "Prettier configuration used by Lucas Santana",
+  "main": "./prettier-config.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quinhas/shared-eslint"
+  },
+  "keywords": [
+    "prettier",
+    "config",
+    "quinhas"
+  ],
+  "dependencies": {
+    "prettier": "^2.8.8"
+  }
+}
