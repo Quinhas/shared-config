@@ -1,13 +1,14 @@
 {
   "name": "@quinhas/config-prettier",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "private": false,
   "license": "MIT",
   "author": "Lucas Santana",
   "description": "Prettier configuration used by Lucas Santana",
   "main": "./prettier-config.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quinhas/shared-config"
+    "url": "quinhas/shared-config"
   },
   "keywords": [
     "prettier",
@@ -15,6 +16,9 @@
     "quinhas"
   ],
   "dependencies": {
+    "prettier": "^2.8.8"
+  },
+  "peerDependencies": {
     "prettier": "^2.8.8"
   }
 }
