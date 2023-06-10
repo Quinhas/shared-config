@@ -1,5 +1,11 @@
 # @quinhas/config-eslint
 
+## 1.0.5
+
+### Patch Changes
+
+- update rules
+
 ## 1.0.4
 
 ### Patch Changes

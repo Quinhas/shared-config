@@ -1,13 +1,12 @@
 {
   "name": "@quinhas/config-eslint",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "license": "MIT",
   "author": "Lucas Santana",
   "description": "ESLint configuration used by Lucas Santana",
-  "main": "./react.js",
+  "main": "index.js",
   "repository": {
-    "type": "git",
     "url": "quinhas/shared-config"
   },
   "keywords": [
@@ -24,11 +23,11 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-prettier": "^4.2.1"
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
   },
   "peerDependencies": {
     "eslint": "^8.42.0",
-    "prettier": "^2.8.8",
     "typescript": ">=3.3.1"
   },
   "peerDependenciesMeta": {

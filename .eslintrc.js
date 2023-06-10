@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-undef
 module.exports = {
   env: {
     es2021: true,
@@ -17,5 +16,6 @@ module.exports = {
     'quote-props': ['error', 'consistent'],
     'quotes': ['error', 'single', { allowTemplateLiterals: true }],
     'semi': ['error', 'always'],
+    'no-undef': 'off',
   },
 };
