@@ -1,13 +1,13 @@
 {
   "name": "@quinhas/config-eslint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "Lucas Santana",
   "description": "ESLint configuration used by Lucas Santana",
   "main": "./react.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quinhas/shared-eslint"
+    "url": "https://github.com/quinhas/shared-config"
   },
   "keywords": [
     "eslint",
