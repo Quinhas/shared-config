@@ -1,6 +1,6 @@
 {
   "name": "@quinhas/config-eslint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "Lucas Santana",
   "description": "ESLint configuration used by Lucas Santana",
@@ -18,14 +18,13 @@
     "@typescript-eslint/eslint-plugin": "^5.59.9",
     "@typescript-eslint/parser": "^5.59.9",
     "eslint": "^8.42.0",
-    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-n": "^16.0.0",
-    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.8"
   }
 }

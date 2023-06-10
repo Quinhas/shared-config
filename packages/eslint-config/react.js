@@ -7,7 +7,6 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'prettier',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
   ],
@@ -19,8 +18,9 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', 'jsx-a11y', '@typescript-eslint'],
+  plugins: ['react', 'jsx-a11y', '@typescript-eslint', 'prettier'],
   rules: {
+    'prettier/prettier': 'error',
     'indent': ['error', 2],
     'linebreak-style': ['error', 'unix'],
     'quotes': ['error', 'single'],

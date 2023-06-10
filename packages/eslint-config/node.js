@@ -5,14 +5,15 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: ['eslint:recommended', 'prettier'],
+  extends: ['eslint:recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'prettier'],
   rules: {
+    'prettier/prettier': 'error',
     'indent': ['error', 2],
     'linebreak-style': ['error', 'unix'],
     'quotes': ['error', 'single'],
